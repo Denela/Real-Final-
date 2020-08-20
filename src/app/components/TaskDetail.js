@@ -3,6 +3,8 @@ import {connect} from 'react-redux';
 import { Link } from 'react-router-dom';
 import * as mutations from '../store/mutations'
 
+
+// an object which outlines the specific details of each task
 const TaskDetail = ({
     id,
     comments,

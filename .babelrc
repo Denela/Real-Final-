@@ -1,7 +1,10 @@
+// This file is telling babel to use the libraries below to transform files (this might be jsx files to js files)  whenever its called upon by webpack
 {
     "presets": [
         [
-            "@babel/preset-env",{
+            "@babel/preset-env",
+              // configuration for present
+            {
                 "targets":{
                     "node":"current"
                 }

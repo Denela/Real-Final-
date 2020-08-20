@@ -1,3 +1,6 @@
+// This file is a template for all the changes to the app state i would like to do
+
+
 export const  REQUEST_TASK_CREATION = `REQUEST_TASK_CREATION`;
 export const CREATE_TASK = `CREATE_TASK`;
 export const SET_TASK_COMPLETE = `SET_TASK_COMPLETE`;
@@ -10,6 +13,7 @@ export const AUTHENTICATED = `AUTHENTICATED`;
 export const NOT_AUTHENTICATED = `NOT_AUTHENTICATED`;
 export const SET_STATE = `SET_STATE`;
 
+//these methods automatically creates objects to do the mutations
 
 export const requestTaskCreation = (groupID) => ({
     type: REQUEST_TASK_CREATION,
